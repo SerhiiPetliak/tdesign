@@ -5,487 +5,116 @@
 	<title>ЗНУ головна сторінка</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
-	<link rel="stylesheet" href="css/calendar.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/menu.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-
-	<script>
-		$(document).ready(function() {
-
-	var openMenu=function(){
-		if(jQuery('.main_left_menu:hidden').length>0){
-			jQuery('.main_left_menu').toggle();
-		}
-	};
-
-	jQuery('#menu_bars').click(openMenu).hover(openMenu);
-
-	jQuery(document).click(function(e){
-		var t=jQuery(e.target);
-		if(t.attr('id') != 'menu_bars'){
-			jQuery('.main_left_menu').hide();
-		}
-	});
-		  
-		});
-	</script>
-
 </head>
-<body style="position: relative; z-index: 0;">
-
-
-<div class="left_menu">
-	<ul class="main_left_menu news_wrap">
-				<li>
-					<a href="">Університет</a>
-				</li>
-				<li data-toggle="collapse" data-target="#collapseRectorat" aria-expanded="false" aria-controls="collapseExample">
-  					
-  						Ректорат
-  					
-				</li>
-
-					<div class="collapse" id="collapseRectorat">
-	 					<ul class="faculty_list">
-  							<li><a href="rectorat.html">Ректор</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/physics">Перший проректор</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/economy">Головний бухгалтер</a></li>
-					</div>
-				
-<!-- -->
-				<li data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-  					
-  						Факультети
-  					
-				</li>
-
-					<div class="collapse" id="collapseExample">
-	 					<ul class="faculty_list">
-  							<li><a href="http://www.znu.edu.ua/ukr/university/departments/math">Математичний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/physics">Фізичний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/economy">Економічний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/history">Історичний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/biology">Біологічний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/philology">Філологічний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/fif">Факультет іноземної філології </a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/law">Юридичний факультет</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/fizvosp">Факультет фізичного виховання</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/spp">Факультет соціальної педагогіки та&nbsp;психології</a> </li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/managament">Факультет менеджменту</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/su">Факультет соціології та&nbsp;управління</a></li>
-							<li><a href="http://www.znu.edu.ua/ukr/university/departments/journalistics">Факультет журналістики </a></li>
-						</ul>
-					</div>
-<!-- -->
-						<li><a href="">Кафедри</a></li>
-						<!-- -->
-<li data-toggle="collapse" data-target="#collapseParts" aria-expanded="false" aria-controls="collapseExample">
-  					
-  						Підрозділи
-  					
-				</li>
-<div class="collapse" id="collapseParts">
-<ul class="faculty_list">
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/prijmalna_komisiya">Приймальна комісія</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/aspirantura_i_doktorantura">Аспірантура і докторантура</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/viddil_mizhnarodnikh_zvyazkiv">Відділ міжнародних зв’язків і роботи з іноземними студентами</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/navch-viddil">Відділ з навчальної роботи</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/viddil_vikhovnoyi_roboti">Відділ виховної роботи</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/naukovo-doslidna-chastyna">Науково-дослідна частина</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/naukova_biblioteka_znu">Наукова бібліотека ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/buhgalterija">Відділ бухгалтерського обліку, фінансової та бюджетної звітності</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/energozberezhennya">Лабораторія з енергозбереження та енергоефективності</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/press">Прес-центр ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/yuridichnij_viddil">Юридичний відділ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1165">Відділ моніторингу якості освіти і ліцензування</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/radio_universe">Радіо «Юніверс»</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1166">Портал «Пороги»</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/museum">Музей ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/886">Зоологічний музей ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/profspilkova_organizatsiya">Первинна профспілкова організація ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/studrada_znu">Студрада ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/GIT">Лабораторія інформаційних систем</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/socdoslid">Центр незалежних соціологічних досліджень</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/eco">Регіональний навчально-науково-виробничий центр «Екологія»</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/tsentr-transferu-tekhnologij">Центр трансферу технологій</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/bjuroperekladiv">Бюро перекладів ЗНУ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/regionalnij_informatsijno-virobnichij_vuzol">Регіональний інформаційно-виробничий вузол</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1253">Штаб цивільного захисту</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1313">Редакційно-видавничий відділ</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1321">Відділ охорони праці</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1336">Відділ кадрів</a></li>
-      <li><a href="http://www.znu.edu.ua/ukr/university/pidrozdily/1538">Спортивно-оздоровчий комплекс</a></li>
-    </ul>
-	</div>
-<!-- -->
-						<li><a href="">Філії та коледжі</a></li>
-					</ul>
-</div>
-
-
-
-<header>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-2 col-sm-1 col-xs-1 header_menu_button">
-				<a href="#" id="menu_bars">
-					<i class="fa fa-bars"></i>
-				</a>
-			</div>
-			<div class="col-md-8 col-sm-11 col-xs-11 header_center_title">
-				<img src="img/logo.png" alt="">		
-				<span class="site_main_title">Запорізький національний університет</span>
-			</div>
-			<div class="col-md-2 col-sm-12 col-xs-12 header_icons_block">
-				<a href="#">
-					<i class="fa fa-search"></i>
-				</a>
-				<a href="#" class="visible-xs-inline visible-sm-inline">
-					<i class="fa fa-share-alt"></i>
-				</a>
-				<a href="#" class="hidden-xs hidden-sm">
-					<i class="fa fa-print"></i>
-				</a>
-				<a href="#" class="hidden-xs hidden-sm">
-					<i class="fa fa-sitemap"></i>
-				</a>
-				
-				<a href="">ukr</a>
-				<a href="">rus</a>
-				<a href="">eng</a>
-			</div>
-		</div>
-	</div>
-</header>
-
-<section class="main_slider">
-
-	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-	      <!-- Indicators -->
-	      <ol class="carousel-indicators">
-	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	        <li data-target="#myCarousel" data-slide-to="1"></li>
-	      </ol>
-	      <div class="carousel-inner" role="listbox">
-	        <div class="item active">
-	          <img class="first-slide" src="img/slider/1.jpg" alt="First slide">
-	          <div class="container">
-	            <div class="carousel-caption">
-	              <h1>Example headline.</h1>
-	              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-	            </div>
-	          </div>
-	        </div>
-	        <div class="item">
-	          <img class="second-slide" src="img/slider/2.jpg" alt="Second slide">
-	          <div class="container">
-	            <div class="carousel-caption">
-	              <h1>Another example headline.</h1>
-	              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	            </div>
-	          </div>
-	        </div>        
-	      </div>
-	    </div>
-
-</section>
-
-<main class="br">
-
-	<section>
-		<div class="container">
-			<div class="col-md-3 col-sm-12  probel">
-				<div class="main_links_wrap">
-					<div class="main_links_block">
-						<a href="page.html">
-						<img src="img/University-2-icon.png" alt=""><br>
-						Університет</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 probel">
-				<div class="main_links_wrap">
-					<div class="main_links_block">
-						<img src="img/University-2-icon.png" alt=""><br>
-						<a href="#">Абітурієнту</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 probel">
-				<div class="main_links_wrap">
-					<div class="main_links_block">
-						<img src="img/University-2-icon.png" alt=""><br>
-						<a href="#">Студенту</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 probel">
-				<div class="main_links_wrap">
-					<div class="main_links_block">
-						<img src="img/University-2-icon.png" alt=""><br>
-						<a href="#">Науковцю</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-<section class="br">
-		<div class="container">
-			<div class="col-md-12">
-			<div class="col-md-12" style="background-color: #fff;">
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="left_news_block">
-						<h3 class="latest_news_title">Останні новини</h3>
-						<img src="img/3.jpg" class="img-responsive" alt="">
-						<h4><a href="http://sites.znu.edu.ua/news_details.php?news_id=20013&lang=ukr&news_code=prezentatsiyu-znu-z-pitan-zno-2016-proveli-na---zaporizhstali--">Презентацію ЗНУ з питань ЗНО-2016 провели на «Запоріжсталі»</a></h4>
-						<p>Запорізький національний університет розпочав втілення масштабного проекту, який включатиме проведення презентацій «Особливості ЗНО-2016» для профспілкових і молодіжних організацій провідних підприємств Запоріжжя: «Мотор Січ», «Дніпроспецсталь», «Запоріжкокс», «Запоріжвогнетрив», «Запоріжтрансформатор», ДП "Прогрес" ім. академіка О.Г.Івченка, «НВК Іскра». 
-							<a href="#">далі</a>
-						</p>
-
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="right_news_block">
-						<ul>
-							<h3 class="latest_news_title">Новини прес-центру ЗНУ</h3>
-
-							<li class="latest_news_block">
-								<p>04.02.2016, 12:00</p>
-								<h4>
-									<a href="#">
-										Відбулися змагання з міні-футболу серед викладачів і співробітників ЗНУ
-									</a>
-								</h4>
-								<p>
-									Участь у матчі з міні-футболу взяли три команди – збірна команда факультетів університету, збірна адміністрації та ветерани команди «Надія – ЗНУ», загалом 25 осіб. 
-									<a href="#">далі</a>
-								</p>
-							</li>
-							<li class="latest_news_block">
-								<p>04.02.2016, 12:00</p>
-								<h4>
-									<a href="#">
-										Студентка ЕПК Анастасія Бризгіна показала кращий світовий результат з бігу серед юніорів
-									</a>
-								</h4>
-								<p>
-									На змаганнях Jyväskylä Indoor Games, що відбулися у Фінляндії, студентка 2 курсу спеціальності «Фізичне виховання» Економіко-правничого коледжу Запорізького національного університету Анастасія Бризгіна показала найкращий світовий результат сезону серед юніорів в бігу на 300 метрів у приміщенні.
-									<a href="#">далі</a>
-								</p>
-							</li>
-							<li class="latest_news_block">
-								<p>04.02.2016, 12:00</p>
-								<h4>
-									<a href="#">
-										АТС завершує роботи із заміни телефонних номерів у ЗНУ наступного тижня
-									</a>
-								</h4>
-								<p>
-									У Запорізькому національному університеті тривають роботи, пов’язані із заміною телефонних номерів. 
-									<a href="#">далі</a>
-								</p>
-							</li>
-							<li class="latest_news_block">
-								<p>04.02.2016, 12:00</p>
-								<h4>
-									<a href="#">
-										У ЗНУ триває спартакіада серед викладачів та співробітників
-									</a>
-								</h4>
-								<p>
-									Сьогодні свою логіку та кмітливість демонстрували учасники гри у шашки.
-									<a href="#">далі</a>
-								</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="br">
-		<div class="container">
-				<div class="col-md-4">
-					<div class="quotes_block">
-						<div class="calendar">03<em>лютого</em></div>
-						<table class="calendar_mon">							 
-							 <tr>
-							 	<td><a href="">1</a> </td>
-								<td><a href="">2</a> </td>
-								<td><a href="">3</a> </td>
-								<td><a href="">4</a> </td>
-								<td><a href="">5</a> </td>
-								<td><a href="">6</a> </td>
-								<td><a href="">7</a> </td> 
-							</tr>
-							 <tr>
-								<td><a href="">8</a> </td>
-								<td><a href="">9</a> </td>
-								<td><a href="">10</a> </td>
-								<td><a href="">11</a> </td>
-								<td><a href="">12</a> </td>
-								<td><a href="">13</a> </td>
-								<td><a href="">14</a> </td>
-							</tr>
-							<tr>
-								<td><a href="">15</a> </td>
-								<td><a href="">16</a> </td>
-								<td><a href="">17</a> </td>
-								<td><a href="">18</a> </td>
-								<td><a href="">19</a> </td>
-								<td><a href="">20</a> </td>
-								<td><a href="">21</a> </td>
-							</tr>
-							<tr>
-								<td><a href="">22</a> </td>
-								<td><a href="">23</a> </td>
-								<td><a href="">24</a> </td>
-								<td><a href="">25</a> </td>
-								<td><a href="">26</a> </td>
-								<td><a href="">27</a> </td>
-								<td><a href="">28</a> </td>
-							</tr>
-							<tr>
-								<td><a href="">29</a> </td>
-							</tr>							
-					      	<thead>
-					        <tr>
-					          <th>Пн</th>
-					          <th>Вт</th>
-					          <th>Ср</th>
-					          <th>Чт</th>
-					          <th>Пт</th>
-					          <th>Сб</th>
-					          <th>Вс</th>
-					        </tr>
-      						</thead>
-      						
-						</table>						
-						<div class="clearfix"></div>
-						<a href="">Аноси</a>
-						<a href="">Заходи</a>
-						<a href="">Свята</a>
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div class="quotes_block bc">
-						<blockquote>
-							Совершенно необразованный человек может разве что обчистить товарный вагон, тогда как выпускник университета может украсть целую железную дорогу. 	
-						<span class="quote_author">Теодор Рузвельт</span>	
-						</blockquote>						
-					</div>
-				</div>
-		</div>
-	</section>
-	<br>
-</main>
-
-<footer>
-	<div class="container-fluid">
-		<section>
+<body>
+	<header>
+		
+	</header>
+	<main>
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="footer_links">
-								<h3>Офіційна інформація</h3>
-						<ul class="left_border">
-							<li><a href="#">Офіційні документи, що регламентують роботу ЗНУ</a></li>
-							<li><a href="#">Запобігання корупції в ЗНУ</a></li>
-							<li><a href="#">Державні закупівлі</a></li>
-							<li><a href="#">Урядовий контактний центр</a></li>
-						</ul>
+				<div class="col-md-4">
+					<div class="col-md-12">
+						<div class="big_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl green_bg">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl violet_bg">
+							
+						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="footer_links">
-								<h3>Про ЗНУ</h3>
-						<ul class="left_border point">
-							<li><a href="#">Відеопрезентації</a></li>
-							<li><a href="#">Екскурсія по ЗНУ</a></li>
-							<li><a href="#">Фотогалерея</a></li>
-							<li><a href="#">Випускники</a></li>
-							<li><a href="#">Музей ЗНУ</a></li>
-						</ul>
+				<div class="col-md-4">
+					<div class="col-md-6">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="small_mpage_block border_cl violet_bg">
+							
+						</div>
+					</div>
+
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl green_bg">
+							
+						</div>
+					</div>
+
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl violet_bg">
+							
+						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="footer_links nopadding">
-								<h3>Посилання</h3>
-						<ul class="">
-							<li><a href="#">Міжнародна діяльність</a></li>
-							<li><a href="#">Енергозбереження у ЗНУ</a></li>
-							<li><a href="#">Наукова бібліотека</a></li>
-							<li><a href="#">Штаб цивільного захисту</a></li>
-							<li><a href="#">Виховна робота</a></li>
-							<li><a href="#">Центр культури</a></li>
-							<li><a href="#">Суспільне життя</a></li>
-						</ul>
+				<div class="col-md-4">
+					<div class="col-md-6">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="small_mpage_block border_cl green_bg">
+							
+						</div>
+					</div>
+
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl violet_bg">
+							
+						</div>
+					</div>
+
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl">
+							
+						</div>
+					</div>
+					<div class="col-md-6 top_margin">
+						<div class="small_mpage_block border_cl green_bg">
+							
+						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="footer_links2">
-								<h3>Запитання і відповіді</h3>						
-						<ul>
-							<li><a href="#">Запитання до ректора</a></li>
-							<li><a href="#">Вступ-2016. Віртуалльний консультативний центр</a></li>
-							<li><a href="#">Доступ до булічної документації</a></li>
-							<li><a href="#">Інформація для студентів з Луганської та Донецької області</a></li>
-							<li><a href="#">Як отримати дублікат документа про освіту</a></li>
-						</ul>
-					</div>
-				</div>
 			</div>
-		</section>
-
-	<section>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="banner_block">
-					МОН
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="banner_block">
-					ПЕД. ПРЕСА
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="banner_block">
-					БЮРО ПЕРЕКЛАДІВ
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="banner_block">
-					СОЦ. СЛУЖБИ ЗНУ
-				</div>	
-			</div>
-		</div>			
-	</section>
-
-	<hr>
-	<section class="bottom_footer br">
-			<div class="col-md-6">
-			© 2012 ЗНУ Запорізький національний університет, <br>69600, м. Запоріжжя, вул. Жуковського, 66, <br>тел./факс +38 (061)228-75-08 
-			</div>
-			<div class="col-md-6 right_text">
-				Звернення до лабораторії ІС та КТ ЗНУ
-				<p>Електронна пошта веб-майстра webmaster@znu.edu.ua</p>
-			</div>
-	</section>
-
-	</div>
-</footer>
-
+		</div>
+	</main>
 </body>
 </html>
