@@ -18,3 +18,7 @@ header{
 .violet_bg{
 	background-color: #283593;
 }
+.block_img{
+	background-image: url(http://sites.znu.edu.ua/znu_news/2016/01january/19/i265074-contentImage1_1-original.jpg);
+	background-size: cover;
+}
